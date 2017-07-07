@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65FF4561EA5E3EA78D17E23 /* libPods-webViewNav.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB17F8AF18C976C6139E9E80 /* libPods-webViewNav.a */; };
+		C7978605A23DB0CF94C5DCBF /* libPods-webViewNavUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD953C7536189537956B168 /* libPods-webViewNavUITests.a */; };
+		DC1BBBE41F0DE33E000CD219 /* FacebookStyleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1BBBE31F0DE33E000CD219 /* FacebookStyleBar.m */; };
+		DC2ED9B41ED7F05700DAC696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2ED9B31ED7F05700DAC696 /* main.m */; };
+		DC2ED9B71ED7F05700DAC696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2ED9B61ED7F05700DAC696 /* AppDelegate.m */; };
+		DC2ED9BA1ED7F05700DAC696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2ED9B91ED7F05700DAC696 /* ViewController.m */; };
+		DC2ED9BD1ED7F05700DAC696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2ED9BB1ED7F05700DAC696 /* Main.storyboard */; };
+		DC2ED9BF1ED7F05700DAC696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2ED9BE1ED7F05700DAC696 /* Assets.xcassets */; };
+		DC2ED9C21ED7F05700DAC696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2ED9C01ED7F05700DAC696 /* LaunchScreen.storyboard */; };
+		DC2ED9CD1ED7F05700DAC696 /* webViewNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2ED9CC1ED7F05700DAC696 /* webViewNavTests.m */; };
+		DC2ED9D81ED7F05700DAC696 /* webViewNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2ED9D71ED7F05700DAC696 /* webViewNavUITests.m */; };
+		DC35CF891EF374F700DDE9C9 /* LTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35CF881EF374F700DDE9C9 /* LTNavViewController.m */; };
+		DCD1EB631EDE50CA00E193E7 /* BLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1EB621EDE50CA00E193E7 /* BLKViewController.m */; };
+		DCF75BBC1F0CBA8E00BE298C /* SquareCashStyleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF75BBB1F0CBA8E00BE298C /* SquareCashStyleBar.m */; };
+		F832FE39BCD371CA73FF1BCD /* libPods-webViewNavTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C37061C41D11F542464435 /* libPods-webViewNavTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2ED9C91ED7F05700DAC696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2ED9A71ED7F05700DAC696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2ED9AE1ED7F05700DAC696;
+			remoteInfo = webViewNav;
+		};
+		DC2ED9D41ED7F05700DAC696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2ED9A71ED7F05700DAC696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2ED9AE1ED7F05700DAC696;
+			remoteInfo = webViewNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD953C7536189537956B168 /* libPods-webViewNavUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webViewNavUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796EFD7A1F4E72B1F45C8F37 /* Pods-webViewNavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNavTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNavTests/Pods-webViewNavTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A81988F7BBBB62D8F98F60D /* Pods-webViewNavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNavTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNavTests/Pods-webViewNavTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C37061C41D11F542464435 /* libPods-webViewNavTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webViewNavTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD33F30050E97922BF409FBC /* Pods-webViewNavUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNavUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNavUITests/Pods-webViewNavUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0CC0EA6F654CD480C2915F3 /* Pods-webViewNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNav.release.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNav/Pods-webViewNav.release.xcconfig"; sourceTree = "<group>"; };
+		D96C1E2DCF251948D0717D6B /* Pods-webViewNavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNavUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNavUITests/Pods-webViewNavUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1BBBE21F0DE33E000CD219 /* FacebookStyleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookStyleBar.h; sourceTree = "<group>"; };
+		DC1BBBE31F0DE33E000CD219 /* FacebookStyleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookStyleBar.m; sourceTree = "<group>"; };
+		DC2ED9AF1ED7F05700DAC696 /* webViewNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webViewNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2ED9B31ED7F05700DAC696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC2ED9B51ED7F05700DAC696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC2ED9B61ED7F05700DAC696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC2ED9B81ED7F05700DAC696 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC2ED9B91ED7F05700DAC696 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC2ED9BC1ED7F05700DAC696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2ED9BE1ED7F05700DAC696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC2ED9C11ED7F05700DAC696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC2ED9C31ED7F05700DAC696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2ED9C81ED7F05700DAC696 /* webViewNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2ED9CC1ED7F05700DAC696 /* webViewNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewNavTests.m; sourceTree = "<group>"; };
+		DC2ED9CE1ED7F05700DAC696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2ED9D31ED7F05700DAC696 /* webViewNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2ED9D71ED7F05700DAC696 /* webViewNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewNavUITests.m; sourceTree = "<group>"; };
+		DC2ED9D91ED7F05700DAC696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC35CF871EF374F700DDE9C9 /* LTNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavViewController.h; sourceTree = "<group>"; };
+		DC35CF881EF374F700DDE9C9 /* LTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavViewController.m; sourceTree = "<group>"; };
+		DCD1EB611EDE50CA00E193E7 /* BLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKViewController.h; sourceTree = "<group>"; };
+		DCD1EB621EDE50CA00E193E7 /* BLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		DCF75BBA1F0CBA8E00BE298C /* SquareCashStyleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareCashStyleBar.h; sourceTree = "<group>"; };
+		DCF75BBB1F0CBA8E00BE298C /* SquareCashStyleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareCashStyleBar.m; sourceTree = "<group>"; };
+		ED87200704581DC12B7D0519 /* Pods-webViewNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webViewNav.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webViewNav/Pods-webViewNav.debug.xcconfig"; sourceTree = "<group>"; };
+		FB17F8AF18C976C6139E9E80 /* libPods-webViewNav.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webViewNav.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2ED9AC1ED7F05700DAC696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65FF4561EA5E3EA78D17E23 /* libPods-webViewNav.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9C51ED7F05700DAC696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832FE39BCD371CA73FF1BCD /* libPods-webViewNavTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9D01ED7F05700DAC696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7978605A23DB0CF94C5DCBF /* libPods-webViewNavUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA1DA3AAA2E32B9B23ECA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB17F8AF18C976C6139E9E80 /* libPods-webViewNav.a */,
+				A7C37061C41D11F542464435 /* libPods-webViewNavTests.a */,
+				0DD953C7536189537956B168 /* libPods-webViewNavUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E493877F243D19B0DA5A873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED87200704581DC12B7D0519 /* Pods-webViewNav.debug.xcconfig */,
+				C0CC0EA6F654CD480C2915F3 /* Pods-webViewNav.release.xcconfig */,
+				7A81988F7BBBB62D8F98F60D /* Pods-webViewNavTests.debug.xcconfig */,
+				796EFD7A1F4E72B1F45C8F37 /* Pods-webViewNavTests.release.xcconfig */,
+				D96C1E2DCF251948D0717D6B /* Pods-webViewNavUITests.debug.xcconfig */,
+				AD33F30050E97922BF409FBC /* Pods-webViewNavUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC2ED9A61ED7F05700DAC696 = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9B11ED7F05700DAC696 /* webViewNav */,
+				DC2ED9CB1ED7F05700DAC696 /* webViewNavTests */,
+				DC2ED9D61ED7F05700DAC696 /* webViewNavUITests */,
+				DC2ED9B01ED7F05700DAC696 /* Products */,
+				8E493877F243D19B0DA5A873 /* Pods */,
+				5CA1DA3AAA2E32B9B23ECA9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2ED9B01ED7F05700DAC696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9AF1ED7F05700DAC696 /* webViewNav.app */,
+				DC2ED9C81ED7F05700DAC696 /* webViewNavTests.xctest */,
+				DC2ED9D31ED7F05700DAC696 /* webViewNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2ED9B11ED7F05700DAC696 /* webViewNav */ = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9B51ED7F05700DAC696 /* AppDelegate.h */,
+				DC2ED9B61ED7F05700DAC696 /* AppDelegate.m */,
+				DC2ED9B81ED7F05700DAC696 /* ViewController.h */,
+				DC2ED9B91ED7F05700DAC696 /* ViewController.m */,
+				DCD1EB611EDE50CA00E193E7 /* BLKViewController.h */,
+				DCD1EB621EDE50CA00E193E7 /* BLKViewController.m */,
+				DC1BBBE21F0DE33E000CD219 /* FacebookStyleBar.h */,
+				DC1BBBE31F0DE33E000CD219 /* FacebookStyleBar.m */,
+				DCF75BBA1F0CBA8E00BE298C /* SquareCashStyleBar.h */,
+				DCF75BBB1F0CBA8E00BE298C /* SquareCashStyleBar.m */,
+				DC35CF871EF374F700DDE9C9 /* LTNavViewController.h */,
+				DC35CF881EF374F700DDE9C9 /* LTNavViewController.m */,
+				DC2ED9BB1ED7F05700DAC696 /* Main.storyboard */,
+				DC2ED9BE1ED7F05700DAC696 /* Assets.xcassets */,
+				DC2ED9C01ED7F05700DAC696 /* LaunchScreen.storyboard */,
+				DC2ED9C31ED7F05700DAC696 /* Info.plist */,
+				DC2ED9B21ED7F05700DAC696 /* Supporting Files */,
+			);
+			path = webViewNav;
+			sourceTree = "<group>";
+		};
+		DC2ED9B21ED7F05700DAC696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9B31ED7F05700DAC696 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2ED9CB1ED7F05700DAC696 /* webViewNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9CC1ED7F05700DAC696 /* webViewNavTests.m */,
+				DC2ED9CE1ED7F05700DAC696 /* Info.plist */,
+			);
+			path = webViewNavTests;
+			sourceTree = "<group>";
+		};
+		DC2ED9D61ED7F05700DAC696 /* webViewNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2ED9D71ED7F05700DAC696 /* webViewNavUITests.m */,
+				DC2ED9D91ED7F05700DAC696 /* Info.plist */,
+			);
+			path = webViewNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2ED9AE1ED7F05700DAC696 /* webViewNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2ED9DC1ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNav" */;
+			buildPhases = (
+				3E86931FD2398ED6349DC54C /* [CP] Check Pods Manifest.lock */,
+				DC2ED9AB1ED7F05700DAC696 /* Sources */,
+				DC2ED9AC1ED7F05700DAC696 /* Frameworks */,
+				DC2ED9AD1ED7F05700DAC696 /* Resources */,
+				2A9B80B8F0B2CC5BE47F7FC9 /* [CP] Embed Pods Frameworks */,
+				D8A0A8EDAEFAC0520FB20BCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webViewNav;
+			productName = webViewNav;
+			productReference = DC2ED9AF1ED7F05700DAC696 /* webViewNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2ED9C71ED7F05700DAC696 /* webViewNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2ED9DF1ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNavTests" */;
+			buildPhases = (
+				6B2A4D18148F9B17AA978B17 /* [CP] Check Pods Manifest.lock */,
+				DC2ED9C41ED7F05700DAC696 /* Sources */,
+				DC2ED9C51ED7F05700DAC696 /* Frameworks */,
+				DC2ED9C61ED7F05700DAC696 /* Resources */,
+				EB46FB5ED83ACB3C7C11A7E1 /* [CP] Embed Pods Frameworks */,
+				F912AF696CD19BB2AC62484F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2ED9CA1ED7F05700DAC696 /* PBXTargetDependency */,
+			);
+			name = webViewNavTests;
+			productName = webViewNavTests;
+			productReference = DC2ED9C81ED7F05700DAC696 /* webViewNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC2ED9D21ED7F05700DAC696 /* webViewNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2ED9E21ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNavUITests" */;
+			buildPhases = (
+				95429A895B11ACB7494B67F7 /* [CP] Check Pods Manifest.lock */,
+				DC2ED9CF1ED7F05700DAC696 /* Sources */,
+				DC2ED9D01ED7F05700DAC696 /* Frameworks */,
+				DC2ED9D11ED7F05700DAC696 /* Resources */,
+				9D311DFC7062C761908AD007 /* [CP] Embed Pods Frameworks */,
+				F128598C3F562E77E037EE32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2ED9D51ED7F05700DAC696 /* PBXTargetDependency */,
+			);
+			name = webViewNavUITests;
+			productName = webViewNavUITests;
+			productReference = DC2ED9D31ED7F05700DAC696 /* webViewNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2ED9A71ED7F05700DAC696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					DC2ED9AE1ED7F05700DAC696 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UYW5WPD776;
+						ProvisioningStyle = Automatic;
+					};
+					DC2ED9C71ED7F05700DAC696 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC2ED9AE1ED7F05700DAC696;
+					};
+					DC2ED9D21ED7F05700DAC696 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC2ED9AE1ED7F05700DAC696;
+					};
+				};
+			};
+			buildConfigurationList = DC2ED9AA1ED7F05700DAC696 /* Build configuration list for PBXProject "webViewNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2ED9A61ED7F05700DAC696;
+			productRefGroup = DC2ED9B01ED7F05700DAC696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2ED9AE1ED7F05700DAC696 /* webViewNav */,
+				DC2ED9C71ED7F05700DAC696 /* webViewNavTests */,
+				DC2ED9D21ED7F05700DAC696 /* webViewNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2ED9AD1ED7F05700DAC696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2ED9C21ED7F05700DAC696 /* LaunchScreen.storyboard in Resources */,
+				DC2ED9BF1ED7F05700DAC696 /* Assets.xcassets in Resources */,
+				DC2ED9BD1ED7F05700DAC696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9C61ED7F05700DAC696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9D11ED7F05700DAC696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9B80B8F0B2CC5BE47F7FC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNav/Pods-webViewNav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E86931FD2398ED6349DC54C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2A4D18148F9B17AA978B17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95429A895B11ACB7494B67F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D311DFC7062C761908AD007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNavUITests/Pods-webViewNavUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A0A8EDAEFAC0520FB20BCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNav/Pods-webViewNav-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB46FB5ED83ACB3C7C11A7E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNavTests/Pods-webViewNavTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F128598C3F562E77E037EE32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNavUITests/Pods-webViewNavUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F912AF696CD19BB2AC62484F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webViewNavTests/Pods-webViewNavTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2ED9AB1ED7F05700DAC696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2ED9BA1ED7F05700DAC696 /* ViewController.m in Sources */,
+				DC2ED9B71ED7F05700DAC696 /* AppDelegate.m in Sources */,
+				DCD1EB631EDE50CA00E193E7 /* BLKViewController.m in Sources */,
+				DCF75BBC1F0CBA8E00BE298C /* SquareCashStyleBar.m in Sources */,
+				DC1BBBE41F0DE33E000CD219 /* FacebookStyleBar.m in Sources */,
+				DC35CF891EF374F700DDE9C9 /* LTNavViewController.m in Sources */,
+				DC2ED9B41ED7F05700DAC696 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9C41ED7F05700DAC696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2ED9CD1ED7F05700DAC696 /* webViewNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2ED9CF1ED7F05700DAC696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2ED9D81ED7F05700DAC696 /* webViewNavUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2ED9CA1ED7F05700DAC696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2ED9AE1ED7F05700DAC696 /* webViewNav */;
+			targetProxy = DC2ED9C91ED7F05700DAC696 /* PBXContainerItemProxy */;
+		};
+		DC2ED9D51ED7F05700DAC696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2ED9AE1ED7F05700DAC696 /* webViewNav */;
+			targetProxy = DC2ED9D41ED7F05700DAC696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2ED9BB1ED7F05700DAC696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2ED9BC1ED7F05700DAC696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2ED9C01ED7F05700DAC696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2ED9C11ED7F05700DAC696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2ED9DA1ED7F05700DAC696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2ED9DB1ED7F05700DAC696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2ED9DD1ED7F05700DAC696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED87200704581DC12B7D0519 /* Pods-webViewNav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYW5WPD776;
+				INFOPLIST_FILE = webViewNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC2ED9DE1ED7F05700DAC696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CC0EA6F654CD480C2915F3 /* Pods-webViewNav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYW5WPD776;
+				INFOPLIST_FILE = webViewNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC2ED9E01ED7F05700DAC696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A81988F7BBBB62D8F98F60D /* Pods-webViewNavTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webViewNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webViewNav.app/webViewNav";
+			};
+			name = Debug;
+		};
+		DC2ED9E11ED7F05700DAC696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796EFD7A1F4E72B1F45C8F37 /* Pods-webViewNavTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webViewNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webViewNav.app/webViewNav";
+			};
+			name = Release;
+		};
+		DC2ED9E31ED7F05700DAC696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96C1E2DCF251948D0717D6B /* Pods-webViewNavUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = webViewNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webViewNav;
+			};
+			name = Debug;
+		};
+		DC2ED9E41ED7F05700DAC696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD33F30050E97922BF409FBC /* Pods-webViewNavUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = webViewNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maikoo.webViewNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webViewNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2ED9AA1ED7F05700DAC696 /* Build configuration list for PBXProject "webViewNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2ED9DA1ED7F05700DAC696 /* Debug */,
+				DC2ED9DB1ED7F05700DAC696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2ED9DC1ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2ED9DD1ED7F05700DAC696 /* Debug */,
+				DC2ED9DE1ED7F05700DAC696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2ED9DF1ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2ED9E01ED7F05700DAC696 /* Debug */,
+				DC2ED9E11ED7F05700DAC696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2ED9E21ED7F05700DAC696 /* Build configuration list for PBXNativeTarget "webViewNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2ED9E31ED7F05700DAC696 /* Debug */,
+				DC2ED9E41ED7F05700DAC696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2ED9A71ED7F05700DAC696 /* Project object */;
+}
